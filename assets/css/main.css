@@ -1,0 +1,171 @@
+p{
+    margin:0px;
+    font-weight: 300;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.uk-navbar-brand img{
+    width:100px;
+}
+
+.uk-navbar{
+    background-color: #626266;
+    color:white;
+}
+
+.uk-navbar-nav>li>a{
+    color:white;
+}
+
+.uk-navbar-nav>li.uk-open>a, .uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a:focus{
+    background-color: white;
+    color: #005F9F;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    background-color: white;
+    color: #005F9F;
+}
+
+.uk-navbar-nav>li>a{
+    padding:15px;
+}
+
+.uk-navbar-brand, .uk-navbar-content, .uk-navbar-toggle{
+}
+
+.uk-navbar-nav>li>a{
+    height:initial;
+}
+
+a.uk-slidenav{
+    background-color: rgba(0,95,159,0.6);
+    border-radius: 100%;
+    width: 100px;
+    padding-top: 21px;
+    height: 100px;
+}
+
+.uk-slidenav-position .uk-slidenav-next{
+    right:-47px !important;
+    padding-right: 38px;
+}
+
+.uk-slidenav-position .uk-slidenav-previous{
+    left:-47px !important;
+    padding-left: 38px;
+}
+
+.center{
+    text-align: center;
+}
+
+h1.button-styled{
+    font-size: 26px;
+    background-color: #005F9F;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    padding: 1px 52px;
+}
+
+.container{
+    padding:50px;
+    text-align: center;
+}
+
+p.hashtag{
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.about-us .blocks{
+    max-width: 500px;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.rooms-prices .inner-card{
+    background-color: #626266;
+}
+
+.rooms-prices .inner-card .nav {
+    padding: 20px 50px;
+    color:white;
+}
+
+.rooms-prices .inner-card .nav h1{
+    color:white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rooms-prices .inner-card .nav .nav-arrows{
+    display: inline-block;
+    vertical-align: middle;
+    float:right;
+}
+
+.rooms-prices .inner-card .nav .nav-arrows{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+.rooms-prices .inner-card .nav .nav-arrows button{
+    background-color: #505051;
+    padding:14px 16px;
+    border-radius: 100%;
+    border:none;
+    font-size: 17px;
+    color:white;
+    margin:5px;
+}
+
+.rooms-prices .room-image{
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rooms-prices .room-details{
+    width:60%;
+    display: inline-block;
+    vertical-align: top;
+    padding:0px 40px;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+}
+
+.rooms-prices .room-details h4{
+    color:white;
+    font-size: 20px;
+}
+
+.meetings .meeting-card{
+    width:33%;
+    display: inline-block;
+    vertical-align: top;
+    padding:0px 20px;
+}
+
+.meetings .meeting-card .image{
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center center;
+    width:100px;
+    height:100px;
+    display: inline-block;
+
+}
+
+.meetings .meeth1{
+    border-bottom: 1px solid #969696;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
