@@ -1,3 +1,14 @@
+@font-face {
+    font-family: PriorSan;
+    src: url(PriorSanLig.ttf);
+}
+
+@font-face {
+    font-family: PriorSan;
+    src: url(PriorSanBol.ttf);
+    font-weight: bold;
+}
+
 p{
     margin:0px;
     font-weight: 300;
@@ -9,6 +20,13 @@ p{
 
 .uk-navbar-brand img{
     width:100px;
+    position: absolute;
+    top: 0px;
+    z-index: 10000;
+}
+
+.uk-navbar-brand{
+    width:115px;
 }
 
 .uk-navbar{
@@ -31,7 +49,7 @@ p{
 }
 
 .uk-navbar-nav>li>a{
-    padding:15px;
+    padding:15px 20px;
 }
 
 .uk-navbar-brand, .uk-navbar-content, .uk-navbar-toggle{
@@ -39,6 +57,7 @@ p{
 
 .uk-navbar-nav>li>a{
     height:initial;
+    font-weight: 200;
 }
 
 a.uk-slidenav{
@@ -64,12 +83,13 @@ a.uk-slidenav{
 }
 
 h1.button-styled{
-    font-size: 26px;
+    font-size: 34px;
     background-color: #005F9F;
     display: inline-block;
     border-radius: 20px;
     color: white;
     padding: 1px 52px;
+    padding-top: 8px;
 }
 
 .container{
@@ -78,8 +98,9 @@ h1.button-styled{
 }
 
 p.hashtag{
-    font-size: 18px;
+    font-size: 21px;
     padding-bottom: 2px;
+    font-weight: 600;
 }
 
 .about-us .blocks{
@@ -88,6 +109,8 @@ p.hashtag{
     display: inline-block;
     padding-bottom: 30px;
 }
+
+
 
 .rooms-prices .inner-card{
     background-color: #626266;
@@ -102,6 +125,8 @@ p.hashtag{
     color:white;
     display: inline-block;
     vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .rooms-prices .inner-card .nav .nav-arrows{
@@ -127,13 +152,17 @@ p.hashtag{
 }
 
 .rooms-prices .room-image{
-    width:40%;
+    width:60%;
     display: inline-block;
     vertical-align: top;
+    background-size: cover !important;
+    background-position: center center !important;
+    min-height: 40vw;
+    box-shadow: 3px -5px 17px 2px rgba(0, 0, 0, 0.18);
 }
 
 .rooms-prices .room-details{
-    width:60%;
+    width:40%;
     display: inline-block;
     vertical-align: top;
     padding:0px 40px;
@@ -144,7 +173,8 @@ p.hashtag{
 
 .rooms-prices .room-details h4{
     color:white;
-    font-size: 20px;
+    font-size: 29px;
+    font-weight: bolder;
 }
 
 .meetings .meeting-card{
@@ -152,6 +182,11 @@ p.hashtag{
     display: inline-block;
     vertical-align: top;
     padding:0px 20px;
+}
+
+.meetings .meeting-card h4{
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .meetings .meeting-card .image{
@@ -168,4 +203,162 @@ p.hashtag{
     border-bottom: 1px solid #969696;
     padding-bottom: 6px;
     margin-bottom: 20px;
+}
+
+
+.rewards{
+    background:url('../images/rewards_asd.png');
+    background-position: center center;
+    background-size: cover;
+    color:white;
+}
+
+.rewards .overlay{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.rewards .overlay h1.meeth1{
+    color:white;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+
+.book-now h1.meeth1{
+    color:white;
+    font-weight: bolder;
+    border-bottom: 1px solid white;
+}
+
+.rewards p{
+    padding-bottom: 15px;
+}
+
+.rewards h3{
+    font-weight: 500;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 5px;
+}
+
+.rewards a{
+    color:#ffedaa;
+}
+
+.book-now{
+    background-color: #626266;
+}
+
+.book-now .input-form{
+    display: inline-block;
+    text-align:left;
+    min-width:40%;
+    vertical-align: top;
+    padding:15px;
+    padding-bottom: 10px;
+}
+
+.book-now .input-form label{
+    display: block;
+    color:white;
+    margin-bottom: 6px;
+}
+
+.book-now .input-form input{
+    background-color: transparent;
+    padding:8px;
+    border:1px solid white;
+    border-radius: 8px;
+    display: block;
+    width:100%;
+    height:40px;
+    color:white;
+}
+
+
+.social-media{
+    background-color:#005F9F;
+    text-align: right;
+    padding:20px 100px;
+}
+
+.social-media h2{
+    float:left;
+    color:white;
+    font-weight: bolder;
+    font-size: 38px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+}
+
+.social-media ul{
+    margin:0px;
+    display: inline-block;
+}
+
+.social-media ul li{
+    display: inline-block;
+    vertical-align: top;
+    color:white;
+}
+
+.social-media ul li a i{
+    color:white;
+    border:1px solid white;
+    border-radius:100%;
+    padding:5px;
+    font-size: 26px;
+    width:38px;
+    padding-right: 7px;
+}
+
+footer{
+    background-color: #626266;
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px;
+    padding:10px;
+    color:white;
+}
+
+
+h1, h2, h3, h4, h5, h6, html{
+    font-family: PriorSan;
+    color:black;
+}
+
+
+p{
+    font-size: 16px;
+}
+
+
+.uk-h1, h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.uk-navbar-toggle{
+        padding-top: 25px;
+        padding-bottom: 40px;
+        color: white;
+        float: right;
+}
+
+.date input{
+    display: inline-block !important;
+    width:45% !important;
+    vertical-align: top;
+}
+
+.date span{
+    display: inline-block;
+    width:10%;
+    vertical-align: middle;
+    color:white;
+    text-align: center;
+
 }
