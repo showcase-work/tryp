@@ -18,6 +18,10 @@ p{
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .uk-navbar-brand img{
     width:100px;
     position: absolute;
