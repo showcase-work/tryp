@@ -169,6 +169,7 @@ p.hashtag{
     text-align: center;
     color:white;
     padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .rooms-prices .room-details h4{
@@ -295,6 +296,7 @@ p.hashtag{
 .social-media ul{
     margin:0px;
     display: inline-block;
+    padding:0px;
 }
 
 .social-media ul li{
@@ -360,5 +362,70 @@ p{
     vertical-align: middle;
     color:white;
     text-align: center;
+}
 
+.wow { visibility: hidden; }
+
+
+
+@media (max-width: 650px) {
+  .rooms-prices .room-image {
+    width:100%;
+  }
+
+  .rooms-prices .room-details{
+    width:100%;
+  }
+
+  .meetings .meeting-card{
+    padding-bottom: 20px;
+    width:100%;
+  }
+
+  .book-now .input-form{
+    width:100%
+  }
+}
+
+@media (max-width: 500px) {
+    .social-media{
+        text-align: center;
+    }
+
+    .social-media h2{
+        float:none;
+    }
+
+    .social-media ul{
+        padding-top: 20px;
+    }
+
+    .social-media{
+        padding:20px;
+    }
+
+}
+
+
+.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show{
+    padding-top: 100px;
+    background-color: #005F9F;
+}
+
+.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show ul{
+    padding:0px;
+}
+
+.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show ul li{
+    display: block;
+}
+
+.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show ul li a{
+    display: block;
+    color:white;
+    padding:20px;
+    background-color: #005F9F;
+    font-weight: bolder;
+    border-bottom:1px solid white;
+    text-decoration: none; 
 }

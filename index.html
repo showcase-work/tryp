@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/dotnav.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slidenav.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/datepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
 
 
     
@@ -30,7 +33,20 @@
         <a href="#toggler" class="uk-navbar-nav uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
     </nav>
 
-    <div class="banner-slider">
+    <div id="toggler" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul>
+                <li class="uk-active"><a href="">HOME</a></li>
+                <li><a href="">HOTEL & CULTURE</a></li>
+                <li><a href="">ROOMS & PRICES</a></li>
+                <li><a href="">YOUR MEETINGS</a></li>
+                <li><a href="">REWARDS</a></li>
+                <li><a href="">BOOK NOW</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner-slider wow fadeIn">
         <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:true, autoplay:true}">
             <ul class="uk-slideshow uk-overlay-active" data-uk-slideshow>
                 <li>
@@ -54,13 +70,13 @@
         </div>
     </div>
     <div class="container about-us center">
-        <div class="blocks">
+        <div class="blocks wow fadeInUp" data-wow-delay="1s">
             <h1 class="button-styled">OUR HOTEL</h1>
             <p class="hashtag">#EsteEsMiTYRP</p>
             <p>Experience comfort and convenience in Mexico City at our TRYP hotel perfectly located near the World Trade Center. Enjoy breathtaking city views from our top-floor restaurant or explore the local streets and discover the best of authentic local foods. Our location near Mexico City International Airport, combined with our elegant and flexible meeting space, makes us the best choice in Mexico City hotels for business trips.<br/>It's time to take over the city!</p>
         </div>
         <br/>
-        <div class="blocks" style="padding-bottom: 0px;">
+        <div class="blocks wow fadeInUp" style="padding-bottom: 0px;" data-wow-delay="1s">
             <h1 class="button-styled">OUR HOTEL</h1>
             <p class="hashtag">#EsteEsMiTYRP</p>
             <p>Experience comfort and convenience in Mexico City at our TRYP hotel perfectly located near the World Trade Center. Enjoy breathtaking city views from our top-floor restaurant or explore the local streets and discover the best of authentic local foods. Our location near Mexico City International Airport, combined with our elegant and flexible meeting space, makes us the best choice in Mexico City hotels for business trips.<br/>It's time to take over the city!</p>
@@ -68,7 +84,7 @@
     </div>
 
     <div class="rooms-prices">
-        <div class="inner-card">
+        <div class="inner-card wow fadeIn">
             <div class="nav">
                 <h1>ROOMS</h1>
                 <div class="nav-arrows">
@@ -91,17 +107,17 @@
     <div class="meetings container">
         <h1 class="meeth1">YOUR MEETINGS</h1>
 
-            <div class="meeting-card">
+            <div class="meeting-card wow fadeInLeft">
                 <div class="image" style="background-image: url('assets/images/meetings-05.png')"></div>
                 <h4>MEETINGS AND EVENTS</h4>
                 <p>In TRYP hotel we are so passionate about making sure your event or meeting is perfect, like the city itself. From a meeting to a formal event, we offer you not only a central location, but also everything you need for you and your company to offer a fantastic experience.</p>
             </div><div 
-            class="meeting-card">
+            class="meeting-card wow fadeIn">
                 <div class="image" style="background-image: url('assets/images/meetings-05.png')"></div>
                 <h4>HAVE SUCCESS</h4>
                 <p>When it comes to meetings, we all want to contribute to creating the perfect working environment. Our meeting rooms are specifically designed to increase productivity and maintain a relaxed atmosphere. When you stay with us, the hotel will not only serve as the headquarters of your company, but our staff will be your most faithful temporary workforce. We also offer the best coffee breaks, which will leave a good taste in your mouth.</p>
             </div><div 
-            class="meeting-card">
+            class="meeting-card wow fadeInRight">
                 <div class="image" style="background-image: url('assets/images/meetings-05.png')"></div>
                 <h4>BE HAPPY</h4>
                 <p>Whatever the event, an intimate wedding, a meeting or a great celebration, we take care of every detail so that you focus on enjoying your guests and your event. Our incredible chefs can prepare truly impressive and imaginative creations. We have developed an important range of menus that will conquer the most demanding palates, including children's menus and vegetarian dishes. Given the category of our standards, we can provide you with one option after another, but ultimately it is your day and everything should be to your liking ... the imagination will be your only limit. We simply give life to your imagination.</p>
@@ -109,7 +125,7 @@
 
     </div>
 
-    <div class="rewards">
+    <div class="rewards wow fadeInUp">
         <div class="overlay container">
             <h1 class="meeth1">YOUR REWARDS</h1>
             <p>TRYP by Wyndham hotels offer you a first class experience and a fabulous time. But that's not enough: we want to give you more.</p>
@@ -164,5 +180,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/uikit.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/slideshow.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/datepicker.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
+    <script type="text/javascript">
+        /*var $animation_elements = $('.animation-element');
+        var $window = $(window);
+        function check_if_in_view() {
+          var window_height = $window.height();
+          var window_top_position = $window.scrollTop();
+          var window_bottom_position = (window_top_position + window_height);
+
+          $.each($animation_elements, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+                (element_top_position <= window_bottom_position)) {
+              $element.addClass('in-view');
+              $element.addClass('animated bounce');
+              $element.addClass('bounce');
+
+            } else {
+              $element.removeClass('in-view');
+            }
+          });
+        }
+
+        $(window).on("scroll resize", check_if_in_view);
+        $window.trigger('scroll');*/
+    </script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
 </body>
 </html>
