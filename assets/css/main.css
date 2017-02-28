@@ -408,6 +408,15 @@ p{
   .rooms-prices .inner-card .nav{
     text-align: center;
   }
+
+  .wow {
+    visibility: visible !important;
+    -webkit-animation: none !important;
+       -moz-animation: none !important;
+         -o-animation: none !important;
+        -ms-animation: none !important;
+            animation: none !important;
+  }
 }
 
 @media (max-width: 500px) {
