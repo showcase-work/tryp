@@ -400,6 +400,10 @@ p{
     margin: auto;
     text-shadow: 1px 2px 1px #090808;
   }
+
+  .rooms-prices .inner-card .nav{
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
@@ -421,6 +425,18 @@ p{
 
 }
 
+.room-details .short-desc{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.room-details ul{
+    font-size: 16px;
+    padding:0px;
+    list-style: none;
+}
 
 .uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show{
     padding-top: 100px;
