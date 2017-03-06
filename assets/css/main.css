@@ -214,7 +214,7 @@ p.hashtag{
 
 
 .rewards{
-    background:url('../images/rewards_asd.png');
+    background:url('../images/rewards_asd.jpg');
     background-position: center center;
     background-size: cover;
     color:white;
@@ -458,20 +458,20 @@ p{
     list-style: none;
 }
 
-.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show{
+.uk-offcanvas.uk-active .uk-offcanvas-bar{
     padding-top: 100px;
     background-color: #005F9F;
 }
 
-.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show ul{
+.uk-offcanvas.uk-active .uk-offcanvas-bar ul{
     padding:0px;
 }
 
-.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show ul li{
+.uk-offcanvas.uk-active .uk-offcanvas-bar ul li{
     display: block;
 }
 
-.uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show ul li a{
+.uk-offcanvas.uk-active .uk-offcanvas-bar ul li a{
     display: block;
     color:white;
     padding:20px;
@@ -500,5 +500,6 @@ p{
     background-color: #005F9F;
     color:white;
     border-radius: 6px;
-    font-size: 15px;
+    font-size: 16px;
+    padding:6px 20px 2px 20px;
 }
