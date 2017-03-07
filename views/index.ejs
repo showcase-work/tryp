@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TRYP</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/uikit.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slideshow.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/dotnav.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slidenav.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/datepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+
+
+    
+</head>
+<body>
+
+    <nav class="uk-navbar">
+        <a href="" class="uk-navbar-brand">
+            <img src="/images/tryp-02.png">
+        </a>
+        <ul class="uk-navbar-nav uk-hidden-small">
+            <li><a href="#Home" data-uk-smooth-scroll>HOME</a></li>
+            <li><a href="#HotelAndCulture" data-uk-smooth-scroll>HOTEL & CULTURE</a></li>
+            <li><a href="#RoomAndPrices" data-uk-smooth-scroll>ROOMS & PRICES</a></li>
+            <li><a href="#Meetings" data-uk-smooth-scroll>YOUR MEETINGS</a></li>
+            <li><a href="#Rewards" data-uk-smooth-scroll>REWARDS</a></li>
+            <li><a href="#BookNow" data-uk-smooth-scroll>BOOK NOW</a></li>
+        </ul>
+        <a href="#toggler" class="uk-navbar-nav uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+    </nav>
+
+    <div id="toggler" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul>
+                <li class="#uk-active" data-uk-smooth-scroll><a href="#Home">HOME</a></li>
+                <li><a href="#HotelAndCulture" data-uk-smooth-scroll>HOTEL & CULTURE</a></li>
+                <li><a href="#RoomAndPrices" data-uk-smooth-scroll>ROOMS & PRICES</a></li>
+                <li><a href="#Meetings" data-uk-smooth-scroll>YOUR MEETINGS</a></li>
+                <li><a href="#Rewards" data-uk-smooth-scroll>REWARDS</a></li>
+                <li><a href="#BookNow" data-uk-smooth-scroll>BOOK NOW</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner-slider">
+        <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:true, autoplay:true}">
+            <ul class="uk-slideshow uk-overlay-active uk-slideshow-fullscreen" data-uk-slideshow>
+                <li>
+                    <img src="/images/SLIDE1.jpg" width="800" height="400">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade overlay-inside-content uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div class="overlay-inside-content">
+                            <h1>WORLDLY AVENTURES <br />AWAIT</h1>
+                            <p>EXPLORE OUR HOTELS IN OVER 75 CITIES AROUNT THE GLOBE</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/SLIDE2.jpg" width="800" height="400">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade overlay-inside-content uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div class="overlay-inside-content">
+                            <h1>WORLDLY AVENTURES <br />AWAIT</h1>
+                            <p>EXPLORE OUR HOTELS IN OVER 75 CITIES AROUNT THE GLOBE</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/SLIDE3.jpg" width="800" height="400">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade overlay-inside-content uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div class="overlay-inside-content">
+                            <h1>WORLDLY AVENTURES <br />AWAIT</h1>
+                            <p>EXPLORE OUR HOTELS IN OVER 75 CITIES AROUNT THE GLOBE</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/SLIDE4.jpg" width="800" height="400">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade overlay-inside-content uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div class="overlay-inside-content">
+                            <h1>WORLDLY AVENTURES <br />AWAIT</h1>
+                            <p>EXPLORE OUR HOTELS IN OVER 75 CITIES AROUNT THE GLOBE</p>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+            <!-- <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                <li data-uk-slideshow-item="0"><a href=""></a></li>
+                <li data-uk-slideshow-item="1"><a href=""></a></li>
+                <li data-uk-slideshow-item="2"><a href=""></a></li>
+            </ul> -->
+        </div>
+    </div>
+    <div class="container about-us center" id="HotelAndCulture">
+        <div class="blocks wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="button-styled">OUR HOTEL</h1>
+            <p class="hashtag">#EsteEsMiTYRP</p>
+            <p>Experience comfort and convenience in Mexico City at our TRYP hotel perfectly located near the World Trade Center. Enjoy breathtaking city views from our top-floor restaurant or explore the local streets and discover the best of authentic local foods. Our location near Mexico City International Airport, combined with our elegant and flexible meeting space, makes us the best choice in Mexico City hotels for business trips.<br/>It's time to take over the city!</p>
+        </div>
+        <br/>
+        <div class="blocks wow fadeInUp" style="padding-bottom: 0px;" data-wow-delay="0.1s">
+            <h1 class="button-styled">OUR CULTURE</h1>
+            <p class="hashtag">#ExperienciaTRYP</p>
+            <p>Our passion for our guests only is comparable to our passion for the city. We invite you to explore and discover the best that México has to offer. Our local and up-to-date partners will advise you on the most authentic experiences available: From great local cuisine to fabulous nights in the city. We want you to drink, eat, rest and have Wi-Fi.</p>
+        </div>
+    </div>
+
+    <div class="rooms-prices" id="RoomAndPrices">
+        <div class="inner-card wow fadeInUp">
+            <div class="nav">
+                <h1>ROOMS</h1>
+                <div class="nav-arrows">
+                    <button class="nav-left"><i class="fa fa-arrow-left"></i></button>
+                    <span class="page-number">1</span>/<span class="total-pages">5</span>
+                    <button class="nav-right"><i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="room-content active">
+                <div class="room-image" style="background:url('/images/STANDARD_ROOM.jpg')"></div><div 
+                class="room-details">
+                    <h4>Standard Room</h4>
+                    <span class="short-desc" style="font-size: 17px;">
+                        1 queen size bed
+                    </span>
+                    <p>
+                        All rooms have the following facilities:
+                        <ul>
+                            <li>Minibar</li>  
+                            <li>Coffee maker</li>  
+                            <li>Regular coffee and decaffeinated coffee</li>  
+                            <li>2 complimentary bottles of water upon arrival</li>  
+                            <li>Iron and board inside the closet</li>  
+                            <li>Safety box</li>  
+                            <li>Hairdryer</li>  
+                            <li>Features of the Lavarino collection</li>  
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="room-content">
+                <div class="room-image" style="background:url('/images/STANDARD_DOUBLE_ROOM.jpg')"></div><div 
+                class="room-details">
+                    <h4>Standard Double Room</h4>
+                    <span class="short-desc" style="font-size: 17px;">
+                        2 twin beds
+                    </span>
+                    <p>
+                        All rooms have the following facilities:
+                        <ul>
+                            <li>Minibar</li>  
+                            <li>Coffee maker</li>  
+                            <li>Regular coffee and decaffeinated coffee</li>  
+                            <li>2 complimentary bottles of water upon arrival</li>  
+                            <li>Iron and board inside the closet</li>  
+                            <li>Safety box</li>  
+                            <li>Hairdryer</li>  
+                            <li>Features of the Lavarino collection</li>  
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="room-content">
+                <div class="room-image" style="background:url('/images/FITNESS_ROOM.jpg')"></div><div 
+                class="room-details">
+                    <h4>Fitness Room</h4>
+                    <span class="short-desc" style="font-size: 17px;">
+                        1 queen size bed, inside the room has a climber and a yoga mat.
+                    </span>
+                    <p>
+                        All rooms have the following facilities:
+                        <ul>
+                            <li>Minibar</li>  
+                            <li>Coffee maker</li>  
+                            <li>Regular coffee and decaffeinated coffee</li>  
+                            <li>2 complimentary bottles of water upon arrival</li>  
+                            <li>Iron and board inside the closet</li>  
+                            <li>Safety box</li>  
+                            <li>Hairdryer</li>  
+                            <li>Features of the Lavarino collection</li>  
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="room-content">
+                <div class="room-image" style="background:url('/images/PREMIUM_ROOM.jpg')"></div><div 
+                class="room-details">
+                    <h4>Premium Room</h4>
+                    <span class="short-desc" style="font-size: 17px;">
+                        2 twin beds and terrace.
+                    </span>
+                    <p>
+                        All rooms have the following facilities:
+                        <ul>
+                            <li>Minibar</li>  
+                            <li>Coffee maker</li>  
+                            <li>Regular coffee and decaffeinated coffee</li>  
+                            <li>2 complimentary bottles of water upon arrival</li>  
+                            <li>Iron and board inside the closet</li>  
+                            <li>Safety box</li>  
+                            <li>Hairdryer</li>  
+                            <li>Features of the Lavarino collection</li>  
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="room-content">
+                <div class="room-image" style="background:url('/images/FAMILY_ROOM.jpg')"></div><div 
+                class="room-details">
+                    <h4>Family Room</h4>
+                    <span class="short-desc" style="font-size: 17px;">
+                        1 queen size bed, bunk bed and terrace.
+                    </span>
+                    <p>
+                        All rooms have the following facilities:
+                        <ul>
+                            <li>Minibar</li>  
+                            <li>Coffee maker</li>  
+                            <li>Regular coffee and decaffeinated coffee</li>  
+                            <li>2 complimentary bottles of water upon arrival</li>  
+                            <li>Iron and board inside the closet</li>  
+                            <li>Safety box</li>  
+                            <li>Hairdryer</li>  
+                            <li>Features of the Lavarino collection</li>  
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="meetings container" id="Meetings">
+        <h1 class="meeth1">YOUR MEETINGS</h1>
+
+            <div class="meeting-card wow fadeInLeft">
+                <div class="image" style="background-image: url('/images/meetings-05.png')"></div>
+                <h4>MEETINGS AND EVENTS</h4>
+                <p>In TRYP hotel we are so passionate about making sure your event or meeting is perfect, like the city itself. From a meeting to a formal event, we offer you not only a central location, but also everything you need for you and your company to offer a fantastic experience.</p>
+            </div><div 
+            class="meeting-card wow fadeIn">
+                <div class="image" style="background-image: url('/images/Artboard6.png')"></div>
+                <h4>HAVE SUCCESS</h4>
+                <p>When it comes to meetings, we all want to contribute to creating the perfect working environment. Our meeting rooms are specifically designed to increase productivity and maintain a relaxed atmosphere. When you stay with us, the hotel will not only serve as the headquarters of your company, but our staff will be your most faithful temporary workforce. We also offer the best coffee breaks, which will leave a good taste in your mouth.</p>
+            </div><div 
+            class="meeting-card wow fadeInRight">
+                <div class="image" style="background-image: url('/images/Artboard7.png')"></div>
+                <h4>BE HAPPY</h4>
+                <p>Whatever the event, an intimate wedding, a meeting or a great celebration, we take care of every detail so that you focus on enjoying your guests and your event. Our incredible chefs can prepare truly impressive and imaginative creations. We have developed an important range of menus that will conquer the most demanding palates, including children's menus and vegetarian dishes. Given the category of our standards, we can provide you with one option after another, but ultimately it is your day and everything should be to your liking ... the imagination will be your only limit. We simply give life to your imagination.</p>
+            </div>
+
+    </div>
+
+    <div class="rewards wow fadeInUp" id="Rewards">
+        <div class="overlay container">
+            <h1 class="meeth1">YOUR REWARDS</h1>
+            <p>TRYP by Wyndham hotels offer you a first class experience and a fabulous time. But that's not enough: we want to give you more.</p>
+            <p>TRYP by Wyndham Hotels are part of the Wyndham Rewards®, a free-membership travel loyalty program sponsored by the Wyndham Hotel Group. As a member of Wyndham Rewards, you can earn points or air miles on all qualifying stays at more than 7800 hotels in 15 different locations around the world.</p>
+            <p>Wyndham Rewards is a simple program<br />We think everyone deserves a prize. That is why we facilitate obtaining points and your exchange for that special trip you have always wanted. Go ahead, you've earned them.</p>
+
+            <h3>What are you waiting?</h3>
+            <p>Register for free at <a href="">www.wyndhamrewards.com today.</a></p>
+            <img src="/images/Wyndham-Rewards-blue.png" style="margin-top: 20px;">
+        </div>
+    </div>
+
+    <div class="book-now container" id="BookNow">
+        <h1 class="meeth1 wow fadeIn">
+            BOOK NOW
+        </h1>
+        <form class="uk-form">
+            <div class="input-form wow fadeInLeft">
+                <label>First Name</label>
+                <input type="text" name="name">
+            </div>
+            <div class="input-form wow fadeInRight">
+                <label>Phone</label>
+                <input type="text" name="phone">
+            </div>
+            <br />
+            <div class="input-form wow fadeInLeft">
+                <label>E-Mail</label>
+                <input type="text" name="email">
+            </div>
+            <div class="input-form date wow fadeInRight">
+                <label>Day Of Visit</label>
+                <input type="text" name="dateFrom" data-uk-datepicker="{format:'DD.MM.YYYY'}"><span class="inline">to</span><input type="text" name="dateTo" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+            </div>
+            <br />
+            <button class="uk-button uk-button-default submit">Submit</button>
+            <p class="status">Query Posted successfully</p>
+        </form>
+    </div>
+
+    <div class="container social-media wow fadeInUp">
+        <h2>Follow Us</h2>
+        <ul>
+            <li><a href=""><i class="fa fa-facebook" style="padding-right: 11px;"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2017 TRYP Hotels Worldwide, Inc. All rights reserved. Privacy Notice Web Services User Agreement</p>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/uikit.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/slideshow.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/datepicker.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/core/smooth-scroll.min.js"></script>
+
+
+    <script type="text/javascript">
+        /*var $animation_elements = $('.animation-element');
+        var $window = $(window);
+        function check_if_in_view() {
+          var window_height = $window.height();
+          var window_top_position = $window.scrollTop();
+          var window_bottom_position = (window_top_position + window_height);
+
+          $.each($animation_elements, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+                (element_top_position <= window_bottom_position)) {
+              $element.addClass('in-view');
+              $element.addClass('animated bounce');
+              $element.addClass('bounce');
+
+            } else {
+              $element.removeClass('in-view');
+            }
+          });
+        }
+
+        $(window).on("scroll resize", check_if_in_view);
+        $window.trigger('scroll');*/
+    </script>
+    <script type="text/javascript">
+        new WOW().init({
+            
+        });
+    </script>
+    <script type="text/javascript">
+
+        function navigateRooms(direction){
+            var pageNumber = parseInt($(".page-number").html());
+            if(direction == "right"){
+                console.log(pageNumber);
+                if(pageNumber < 5){
+                    var activeRoom = $('.room-content.active');
+                    activeRoom.removeClass('active');
+                    activeRoom.next().addClass('active');
+                    $(".page-number").html(pageNumber+1);
+                }
+                else
+                {
+                    /*$(".nav-right").attr("disabled", "disabled");*/
+                }
+            }
+            if(direction == "left"){
+                if(pageNumber > 1){
+                    var activeRoom = $('.room-content.active');
+                    activeRoom.removeClass('active');
+                    activeRoom.prev().addClass('active');
+                    $(".page-number").html(pageNumber-1);
+                }
+                else
+                {
+                    /*$(".nav-right").attr("disabled", "disabled");*/
+                }
+            }
+        }
+
+        $(".nav-left").click(function(){
+            navigateRooms('left');
+        })
+        $(".nav-right").click(function(){
+            navigateRooms('right');
+        })
+
+
+        $(".uk-form").submit(function(e){
+            var form = $(this);
+            e.preventDefault();
+            $.ajax({
+                url:"/email",
+                method:"POST",
+                data: form.serialize(),
+                success: function(message){
+                    console.log("working")
+                    if(message){
+                        $(".status").html(message).show();
+                    }
+                    else
+                    {
+                        $(".status").html("Please fill in correct details").show();
+                    }
+                    
+                },
+                error:function(err){
+                    console.log(err);
+                }
+            })
+        })
+
+
+    </script>
+</body>
+</html>

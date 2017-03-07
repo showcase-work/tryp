@@ -503,3 +503,9 @@ p{
     font-size: 16px;
     padding:6px 20px 2px 20px;
 }
+
+.status{
+    color:white;
+    margin-top: 10px;
+    display: none;
+}
