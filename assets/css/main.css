@@ -309,6 +309,7 @@ p.hashtag{
     display: inline-block;
     vertical-align: top;
     color:white;
+    margin-right: 5px;
 }
 
 .social-media ul li a i{
