@@ -1,0 +1,67 @@
+{
+    "home":"HOME",
+    "hotelAndCulture":"HOTEL Y CULTURA",
+    "roomsAndPrices":"HABITACIONES Y PRECIOS",
+    "yourMeetings":"TUS REUNIONES",
+    "rewards":"RECOMPENSAS",
+    "bookNow":"RESERVA AHORA",
+    "slider":{
+        "heading1":"WORLDLY AVENTURES <br />AWAIT",
+        "paragraph1":"EXPLORE OUR HOTELS IN OVER 75 CITIES AROUNT THE GLOBE",
+        "heading2":"",
+        "paragraph2":"",
+        "heading3":"",
+        "paragraph3":"",
+        "heading4":"",
+        "paragraph4":""
+    },
+    "aboutUs":{
+        "heading1":"NUESTRO HOTEL",
+        "hashtag1":"#EsteEsMiTYRP",
+        "paragraph1":"Experimente el confort y la comodidad en la Ciudad de México en nuestro hotel TRYP perfectamente ubicado cerca del World Trade Center. Disfrute de impresionantes vistas de la ciudad desde nuestro restaurante en la última planta o explore las calles locales y descubra lo mejor de auténticas comidas locales. Nuestra ubicación cerca del Aeropuerto Internacional de la Ciudad de México, combinada con nuestro espacio de reuniones elegante y flexible, nos convierte en la mejor opción entre los hoteles de Ciudad de México para viajes de negocios.<br/>¡Es hora de Adueñarte de la ciudad!",
+        "heading2":"NUESTRA CULTURA",
+        "hashtag2":"#ExperienciaTRYP",
+        "paragraph2":"Nuestra pasión por nuestros huéspedes solo es comparable a nuestra pasión por nuestras ciudades. Te invitamos a explorar y descubrir lo mejor que ofrece la ciudad de México. Nuestros socios locales y al día te aconsejarán las experiencias más auténticas disponibles: desde la gran cocina local a fabulosas noches en la ciudad. Queremos que bebas, cenes, descanses y tengas Wi-Fi."
+    },
+    "rooms":{
+        "heading":"HABITACIONES",
+        "standardRoom":"Standard Room",
+        "standardRoomDesc":"1 queen size bed",
+        "standardDoubleRoom":"Standard Double Room",
+        "standardDoubleRoomDesc":"2 twin beds",
+        "fitnessRoom":"Fitness Room",
+        "fitnessRoomDesc":"1 queen size bed, inside the room has a climber and a yoga mat.",
+        "premiumRoom":"Premium Room",
+        "premiumRoomDesc":"2 twin beds and terrace.",
+        "familyRoom":"Family Room",
+        "familyRoomDesc":"1 queen size bed, bunk bed and terrace.",
+        "generalRoomDesc2":"All rooms have the following facilities:",
+        "generalRoomDesc3":"<li>Minibar</li><li>Coffee maker</li><li>Regular coffee and decaffeinated coffee</li><li>2 complimentary bottles of water upon arrival</li><li>Iron and board inside the closet</li><li>Safety box</li><li>Hairdryer</li><li>Features of the Lavarino collection</li>"
+    },
+    "meetings":{
+        "heading":"TUS REUNIONES",
+        "h1":"REUNIONES Y EVENTOS",
+        "h2":"TRIUNFA",
+        "h3":"SÉ FELIZ",
+        "p1":"En TRYP nos apasiona tanto asegurarnos de que tu evento o reunión salga perfecta, como la ciudad en sí misma. Desde una reunión o junta, a un evento formal, te ofrecemos no solo una ubicación céntrica, sino también todo lo necesario para que tú y tu empresa ofrezcan una experiencia fantástica.",
+        "p2":"Cuando se trata de reuniones, todos queremos contribuir a crear el ambiente perfecto de trabajo. Nuestras salas de reuniones se han diseñado específicamente para aumentar la productividad y mantener un ambiente relajado. Cuando te alojes con nosotros, el hotel no solo ejercerá como sede de tu empresa, sino que nuestro personal será tu más fiel mano de obra temporal. También ofrecemos los mejores recesos para café, que te dejarán un buen sabor de boca.",
+        "p3":"Sea cual sea el evento, una boda íntima, una reunión o una gran celebración, nos encargamos de cada detalle para que te centres en disfrutar de tus huéspedes y tu evento. Nuestros increíbles chefs pueden preparar creaciones realmente impresionantes e imaginativas. Hemos desarrollado una importante gama de menús que conquistarán los paladares más exigentes, incluidos menús para niños y platos vegetarianos. Dada la categoría de nuestros estándares, podemos proporcionarte una opción tras otra, pero, en última instancia, es tu día y todo debe estar a tu gusto… la imaginación será tu único límite. Simplemente damos vida a tu imaginación."
+    },
+    "rewardsInfo":{
+        "heading":"TUS RECOMPENSAS",
+        "paragraph":"<p>Los hoteles TRYP by Wyndham te ofrecen una experiencia de primera clase y un tiempo fabuloso. Pero eso no basta: queremos darte más.</p><p>Los hoteles TRYP by Wyndham se integran en el Wyndham Rewards®, un programa de fidelidad para viajes de libre participación patrocinado por el Wyndham Hotel Group. Como miembro de Wyndham Rewards, podrás ganar puntos o millas aéreas en todas las estancias que cumplan las condiciones en más de 7800 hoteles de 15 marcas en todo el mundo.</p><p>Wyndham Rewards es un programa sencillo<br />Pensamos que todo el mundo se merece un premio. Por eso facilitamos la obtención puntos y su canje para ese viaje especial que siempre has querido. Adelante, te los has ganado.</p>",
+        "heading2":"¿Qué esperas?",
+        "paragraph2":"Regístrate gratis en <a href='www.wyndhamrewards.com'>www.wyndhamrewards.com hoy mismo.</a>"
+    },
+    "book":{
+        "heading":"RESERVA AHORA",
+        "firstName":"Nombre",
+        "phone":"Teléfono",
+        "email":"Email",
+        "dayOfVisit":"Fecha de visita",
+        "submit":"Submit",
+        "successMessage":"Query Posted successfully"
+    },
+    "followUs":"Follow Us",
+    "footer":"© 2017 TRYP Hotels Worldwide, Inc. All rights reserved. Privacy Notice Web Services User Agreement"
+}
