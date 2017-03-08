@@ -65,7 +65,7 @@ body, html{
     font-weight: 200;
 }
 
-a.uk-slidenav{
+.banner-slider a.uk-slidenav{
     background-color: rgba(0,95,159,0.6);
     border-radius: 100%;
     width: 100px;
@@ -73,12 +73,12 @@ a.uk-slidenav{
     height: 100px;
 }
 
-.uk-slidenav-position .uk-slidenav-next{
+.banner-slider .uk-slidenav-position .uk-slidenav-next{
     right:-47px !important;
     padding-right: 38px;
 }
 
-.uk-slidenav-position .uk-slidenav-previous{
+.banner-slider .uk-slidenav-position .uk-slidenav-previous{
     left:-47px !important;
     padding-left: 38px;
 }
@@ -206,7 +206,7 @@ p.hashtag{
 
 }
 
-.meetings .meeth1{
+.meetings .meeth1, .gallery .meeth1{
     border-bottom: 1px solid #969696;
     padding-bottom: 6px;
     margin-bottom: 20px;
@@ -547,3 +547,20 @@ li.language .uk-dropdown .uk-nav li a{
     padding-left: 10px;
     padding-top: 10px;
 }
+
+.gallery{
+    background-color: #EFEFE4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/*.uk-slider .uk-active{
+    width:11% !important;
+    margin-top: -1% !important;
+    z-index:1000000;
+}
+
+.uk-slider-container{
+    overflow: initial !important;
+}*/
