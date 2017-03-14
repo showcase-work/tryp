@@ -138,7 +138,7 @@
                 <div class="room-image" style="background:url('/images/STANDARD_ROOM.jpg')"></div><div 
                 class="room-details">
                     <h4><%-language.rooms.standardRoom%></h4>
-                    <span class="short-desc" style="font-size: 17px;">
+                    <span class="short-desc">
                         <%-language.rooms.standardRoomDesc%>
                     </span>
                     <p>
@@ -180,7 +180,7 @@
                 </div>
             </div>
             <div class="room-content">
-                <div class="room-image" style="background:url('/images/PREMIUM_ROOM.jpg')"></div><div 
+                <div class="room-image" style="background:url('/images/premium.png')"></div><div 
                 class="room-details">
                     <h4><%-language.rooms.premiumRoom%></h4>
                     <span class="short-desc" style="font-size: 17px;">
@@ -212,8 +212,8 @@
         </div>
     </div>
 
-    <div class="gallery" id="Gallery">
-        <h1 class="meeth1" style="margin-right:50px; margin-left:50px; margin-bottom:40px;"><%-language.gallery%></h1>
+    <div class="gallery wow fadeIn" id="Gallery">
+        <h1 class="meeth1"><%-language.gallery%></h1>
         <!-- <div data-uk-slider="{center:true}" class="uk-slidenav-position">
             <div class="uk-slider-container">
                 <ul class="uk-slider uk-grid-width-medium-1-3">
@@ -235,7 +235,6 @@
             <img src="images/g7.jpg">
             <img src="images/g8.jpg">
             <img src="images/g9.jpg">
-            <img src="images/g10.jpg">
             <img src="images/g11.jpg">
             <img src="images/g12.jpg">
             <img src="images/g13.jpg">
@@ -269,17 +268,51 @@
                 <p><%-language.meetings.p3%></p>
             </div>
 
+            <div class="meetings-footer">
+                <%-language.meetings.generalpara%>
+            </div>
     </div>
 
-    <div class="rewards wow fadeInUp" id="Rewards">
-        <div class="overlay container">
-            <h1 class="meeth1"><%-language.rewardsInfo.heading%></h1>
-            <%-language.rewardsInfo.paragraph%>
-
-            <h3><%-language.rewardsInfo.heading2%></h3>
-            <p><%-language.rewardsInfo.paragraph2%></p>
-            <img src="/images/Wyndham-Rewards-blue.png" style="margin-top: 20px;">
+    <div class="devi-skybar">
+        <div class="left-block wow fadeInLeft">
+                <h1><%-language.devi.heading%></h1>
+                <p><%-language.devi.paragraph%></p>            
+        </div><div 
+        class="right-block wow fadeInRight">
+            <div style="position:relative;">
+                <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:true, autoplay:true}">
+                    <ul class="uk-slideshow" data-uk-slideshow>
+                        <li><img src="/images/devi1.png" width="800" height="500"></li>
+                        <li><img src="/images/dev2.png" width="800" height="500"></li>
+                        <li><img src="/images/dev3.png" width="800" height="500"></li>
+                    </ul>
+                    
+                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center" style="padding-bottom: 10px;">
+                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </div>
+
+
+
+    <div class="rewards wow fadeInUp" id="Rewards">
+            <div class="left-block">
+                <div class="bg-rewards-page">
+                    <img src="/images/rewardbg.png">
+                </div>
+            </div><div 
+            class="right-block">
+                <h1 class="meeth1"><%-language.rewardsInfo.heading%></h1>
+                <%-language.rewardsInfo.paragraph%>
+
+                <h3><%-language.rewardsInfo.heading2%></h3>
+                <a href="www.wyndhamrewards.com"><p class="button-style"><%-language.rewardsInfo.paragraph2%></p></a>
+                <img src="/images/Wyndham-Rewards-blue.png" style="margin-top: 20px;">
+            </div>            
     </div>
 
     <div class="book-now container" id="BookNow">
@@ -289,18 +322,35 @@
         <form class="uk-form">
             <div class="input-form wow fadeInLeft">
                 <label><%-language.book.firstName%></label>
-                <input type="text" name="name">
+                <input type="text" name="firstName">
             </div>
             <div class="input-form wow fadeInRight">
+                <label><%-language.book.lastName%></label>
+                <input type="text" name="lastName">
+            </div>
+            <div class="input-form wow fadeInLeft">
                 <label><%-language.book.phone%></label>
                 <input type="text" name="phone">
             </div>
-            <br />
-            <div class="input-form wow fadeInLeft">
+            <div class="input-form wow fadeInRight">
                 <label><%-language.book.email%></label>
                 <input type="text" name="email">
             </div>
-            <div class="input-form date wow fadeInRight">
+            <div class="flex">
+                <div class="input-form wow fadeInLeft">
+                    <label><%-language.book.numberOfRooms%></label>
+                    <input type="number" name="numberOfRooms">
+                </div>
+                <div class="input-form wow fadeIn">
+                    <label><%-language.book.adults%></label>
+                    <input type="number" name="adults">
+                </div>
+                <div class="input-form wow fadeInRight">
+                    <label><%-language.book.children%></label>
+                    <input type="number" name="children">
+                </div>
+            </div>
+            <div class="input-form date wow fadeIn">
                 <label><%-language.book.dayOfVisit%></label>
                 <input type="text" name="dateFrom" data-uk-datepicker="{format:'DD.MM.YYYY'}"><span class="inline">to</span><input type="text" name="dateTo" data-uk-datepicker="{format:'DD.MM.YYYY'}">
             </div>

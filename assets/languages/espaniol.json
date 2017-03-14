@@ -6,52 +6,53 @@
     "rewards":"RECOMPENSAS",
     "bookNow":"RESERVA AHORA",
     "slider":{
-        "heading1":"WORLDLY AVENTURES <br />AWAIT",
-        "paragraph1":"EXPLORE OUR HOTELS IN OVER 75 CITIES AROUNT THE GLOBE",
-        "heading2":"",
+        "heading1":"#EsteEsMiTRYP",
+        "paragraph1":"",
+        "heading2":"#LaCiudadTePertenece",
         "paragraph2":"",
-        "heading3":"",
+        "heading3":"SIEMPRE LISTOS PARA LOS NEGOCIOS",
         "paragraph3":"",
-        "heading4":"",
+        "heading4":"EMPÁPATE DE CULTURA",
         "paragraph4":""
     },
     "aboutUs":{
         "heading1":"NUESTRO HOTEL",
         "hashtag1":"#EsteEsMiTYRP",
-        "paragraph1":"Experimente el confort y la comodidad en la Ciudad de México en nuestro hotel TRYP perfectamente ubicado cerca del World Trade Center. Disfrute de impresionantes vistas de la ciudad desde nuestro restaurante en la última planta o explore las calles locales y descubra lo mejor de auténticas comidas locales. Nuestra ubicación cerca del Aeropuerto Internacional de la Ciudad de México, combinada con nuestro espacio de reuniones elegante y flexible, nos convierte en la mejor opción entre los hoteles de Ciudad de México para viajes de negocios.<br/>¡Es hora de Adueñarte de la ciudad!",
+        "paragraph1":"Experimente el confort y la comodidad en la Ciudad de México en nuestro hotel TRYP, estratégicamente ubicado cerca del World Trade Center. Disfrute de impresionantes vistas de la ciudad desde nuestro restaurante en el noveno piso o explore las calles CERCANAS y descubra lo mejor de auténticas comidas locales. Nuestra ubicación cerca del Aeropuerto Internacional de la Ciudad de México, combinada con nuestro espacio de reuniones elegante y flexible, nos convierte en la mejor opción entre los hoteles de Ciudad de México para viajes de negocios.<br />¡Es hora de adueñarte de la ciudad!",
         "heading2":"NUESTRA CULTURA",
         "hashtag2":"#ExperienciaTRYP",
-        "paragraph2":"Nuestra pasión por nuestros huéspedes solo es comparable a nuestra pasión por nuestras ciudades. Te invitamos a explorar y descubrir lo mejor que ofrece la ciudad de México. Nuestros socios locales y al día te aconsejarán las experiencias más auténticas disponibles: desde la gran cocina local a fabulosas noches en la ciudad. Queremos que bebas, cenes, descanses y tengas Wi-Fi."
+        "paragraph2":"Nuestra pasión por nuestros huéspedes solo es comparable a nuestra pasión por nuestras ciudades. Te invitamos a explorar y descubrir lo mejor que ofrece la Ciudad de México. Nuestros socios locales diariamente te aconsejarán sobre las experiencias más auténticas disponibles: desde la gran cocina local a fabulosas noches en la ciudad. Queremos que bebas, cenes, descanses y tengas Wi-Fi."
     },
     "rooms":{
         "heading":"HABITACIONES",
-        "standardRoom":"Standard Room",
-        "standardRoomDesc":"1 queen size bed",
-        "standardDoubleRoom":"Standard Double Room",
-        "standardDoubleRoomDesc":"2 twin beds",
-        "fitnessRoom":"Fitness Room",
-        "fitnessRoomDesc":"1 queen size bed, inside the room has a climber and a yoga mat.",
-        "premiumRoom":"Premium Room",
-        "premiumRoomDesc":"2 twin beds and terrace.",
-        "familyRoom":"Family Room",
-        "familyRoomDesc":"1 queen size bed, bunk bed and terrace.",
-        "generalRoomDesc2":"All rooms have the following facilities:",
-        "generalRoomDesc3":"<li>Minibar</li><li>Coffee maker</li><li>Regular coffee and decaffeinated coffee</li><li>2 complimentary bottles of water upon arrival</li><li>Iron and board inside the closet</li><li>Safety box</li><li>Hairdryer</li><li>Features of the Lavarino collection</li>"
+        "standardRoom":"Habitación Estándar",
+        "standardRoomDesc":"1 cama queen size.",
+        "standardDoubleRoom":"Habitación Estándar Doble",
+        "standardDoubleRoomDesc":"2 camas twin.",
+        "fitnessRoom":"Habitación Fitness",
+        "fitnessRoomDesc":"1 cama queen size, dentro de la habitación cuenta con una bicicleta y un tapete para yoga.",
+        "premiumRoom":"Habitación Premium",
+        "premiumRoomDesc":"2 camas twin y terraza.",
+        "familyRoom":"Habitación Familiar",
+        "familyRoomDesc":"1 cama queen size, litera y terraza.",
+        "generalRoomDesc2":"Todas las habitaciones cuentan con las siguientes facilidades:",
+        "generalRoomDesc3":"<li>Frigobar</li><li>Cafetera</li><li>Café regular y descafeinado</li><li>2 botellas de agua en cortesía a la llegada</li><li>Plancha y tabla de planchar dentro del closet</li><li>Caja de seguridad</li><li>Secadora de cabello</li><li>Amenidades de la colección Lavarino</li>"
     },
     "meetings":{
         "heading":"TUS REUNIONES",
         "h1":"REUNIONES Y EVENTOS",
         "h2":"TRIUNFA",
         "h3":"SÉ FELIZ",
-        "p1":"En TRYP nos apasiona tanto asegurarnos de que tu evento o reunión salga perfecta, como la ciudad en sí misma. Desde una reunión o junta, a un evento formal, te ofrecemos no solo una ubicación céntrica, sino también todo lo necesario para que tú y tu empresa ofrezcan una experiencia fantástica.",
-        "p2":"Cuando se trata de reuniones, todos queremos contribuir a crear el ambiente perfecto de trabajo. Nuestras salas de reuniones se han diseñado específicamente para aumentar la productividad y mantener un ambiente relajado. Cuando te alojes con nosotros, el hotel no solo ejercerá como sede de tu empresa, sino que nuestro personal será tu más fiel mano de obra temporal. También ofrecemos los mejores recesos para café, que te dejarán un buen sabor de boca.",
-        "p3":"Sea cual sea el evento, una boda íntima, una reunión o una gran celebración, nos encargamos de cada detalle para que te centres en disfrutar de tus huéspedes y tu evento. Nuestros increíbles chefs pueden preparar creaciones realmente impresionantes e imaginativas. Hemos desarrollado una importante gama de menús que conquistarán los paladares más exigentes, incluidos menús para niños y platos vegetarianos. Dada la categoría de nuestros estándares, podemos proporcionarte una opción tras otra, pero, en última instancia, es tu día y todo debe estar a tu gusto… la imaginación será tu único límite. Simplemente damos vida a tu imaginación."
+        "p1":"Desde una reunión o junta, a un evento formal, te ofrecemos no solo una ubicación céntrica, sino también todo lo necesario para que tú y tu empresa ofrezcan una experiencia fantástica.",
+        "p2":"Nuestras salas de reuniones se han diseñado específicamente para aumentar la productividad y mantener un ambiente relajado. Ofrecemos los mejores recesos para café, que te dejarán un gran sabor de boca.",
+        "p3":"Sea cual sea el evento, nos encargamos de cada detalle para que te centres en disfrutar de tus huéspedes y tu evento. Nuestros increíbles chefs pueden preparar creaciones realmente impresionantes.  Simplemente damos vida a tu imaginación.",
+        "generalpara":"<p>Reserva ahora nuestras instalaciones para tu próxima reunión o evento.<br />¡Es muy fácil!</p><p>Envíanos un mail a <b>reservaciones@trypmexicowtc.com</b> o llámanos al <b>01- (55) -6644-5600.</b></p>"
     },
     "rewardsInfo":{
         "heading":"TUS RECOMPENSAS",
         "paragraph":"<p>Los hoteles TRYP by Wyndham te ofrecen una experiencia de primera clase y un tiempo fabuloso. Pero eso no basta: queremos darte más.</p><p>Los hoteles TRYP by Wyndham se integran en el Wyndham Rewards®, un programa de fidelidad para viajes de libre participación patrocinado por el Wyndham Hotel Group. Como miembro de Wyndham Rewards, podrás ganar puntos o millas aéreas en todas las estancias que cumplan las condiciones en más de 7800 hoteles de 15 marcas en todo el mundo.</p><p>Wyndham Rewards es un programa sencillo<br />Pensamos que todo el mundo se merece un premio. Por eso facilitamos la obtención puntos y su canje para ese viaje especial que siempre has querido. Adelante, te los has ganado.</p>",
         "heading2":"¿Qué esperas?",
-        "paragraph2":"Regístrate gratis en <a href='www.wyndhamrewards.com'>www.wyndhamrewards.com hoy mismo.</a>"
+        "paragraph2":"Regístrate gratis en www.wyndhamrewards.com hoy mismo."
     },
     "book":{
         "heading":"RESERVA AHORA",
@@ -60,9 +61,17 @@
         "email":"Email",
         "dayOfVisit":"Fecha de visita",
         "submit":"Submit",
-        "successMessage":"Query Posted successfully"
+        "successMessage":"Query Posted successfully",
+        "children":"Children",
+        "adults":"Adults",
+        "numberOfRooms": "Number Of Rooms",
+        "lastName": "Last Name"
     },
     "followUs":"Follow Us",
     "footer":"© 2017 TRYP Hotels Worldwide, Inc. All rights reserved. Privacy Notice Web Services User Agreement",
-    "gallery":"GALLERY"
+    "gallery":"GALLERY",
+    "devi":{
+        "heading":"DEVI SKY BAR",
+        "paragraph":"Located on the top floor where you can delight your palate with a delicious menu of the day, craft beer with friends, a romantic dinner in the light of the moon. Enjoy live broadcasts of the best events, seasonal sports transmissions and lots of entertainment while contemplating our incomparable view of Mexico City."
+    }
 }
