@@ -651,12 +651,13 @@ li.language .uk-dropdown .uk-nav li a{
 
   .rewards .left-block{
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 40px;
+
   }
 
   .rewards .left-block img{
     max-width: 260px;
-    margin:0px;
+    margin:0px !important;
   }
 
   /*.wow {
