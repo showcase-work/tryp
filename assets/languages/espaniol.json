@@ -62,16 +62,16 @@
         "dayOfVisit":"Fecha de visita",
         "submit":"Submit",
         "successMessage":"Query Posted successfully",
-        "children":"Children",
-        "adults":"Adults",
-        "numberOfRooms": "Number Of Rooms",
-        "lastName": "Last Name"
+        "children":"Niños",
+        "adults":"Adultos",
+        "numberOfRooms": "Número de habitaciones",
+        "lastName": "Apellido"
     },
     "followUs":"Follow Us",
     "footer":"© 2017 TRYP Hotels Worldwide, Inc. All rights reserved. Privacy Notice Web Services User Agreement",
-    "gallery":"GALLERY",
+    "gallery":"GALERIA",
     "devi":{
         "heading":"DEVI SKY BAR",
-        "paragraph":"Located on the top floor where you can delight your palate with a delicious menu of the day, craft beer with friends, a romantic dinner in the light of the moon. Enjoy live broadcasts of the best events, seasonal sports transmissions and lots of entertainment while contemplating our incomparable view of Mexico City."
+        "paragraph":"Ubicado en el último piso donde podrás deleitar tu paladar con un delicioso menú del día, cerveza artesanal con amigos, una cena romántica a la luz de la luna. Disfruta de transmisiones en vivo de los mejores eventos, partidos de temporada y mucho entretenimiento mientras contemplas nuestra inigualable vista de la Ciudad de México."
     }
 }

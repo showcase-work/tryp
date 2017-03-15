@@ -369,12 +369,12 @@ h1, h2, h3, h4, h5, h6, html{
 
 
 p{
-    font-size: 16px;
+    font-size: 19px;
 }
 
 
 .uk-h1, h1{
-    font-size: 50px;
+    font-size: 54px;
     font-weight: 600;
 }
 
@@ -547,7 +547,7 @@ li.language .uk-dropdown .uk-nav li a{
     vertical-align: top;
     position: relative;
     padding:40px;
-    border-right: 2px solid rgba(255,255,255,0.5);
+    border-left: 2px solid rgba(255,255,255,0.5);
 }
 
 
@@ -557,6 +557,8 @@ li.language .uk-dropdown .uk-nav li a{
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex; 
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
     padding-top: 40px;
     padding-bottom: 40px;
 }
