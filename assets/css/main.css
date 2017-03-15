@@ -398,6 +398,7 @@ p{
     vertical-align: middle;
     color:white;
     text-align: center;
+    font-size: 18px;
 }
 
 .wow { visibility: hidden; }
