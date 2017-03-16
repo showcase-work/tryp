@@ -6,13 +6,13 @@
     "rewards":"REWARDS",
     "bookNow":"BOOK NOW",
     "slider":{
-        "heading1":"#ThisIsMyTRYP",
+        "heading1":"<span class='split1'>#</span><span class='split2'>This</span><span class='split3'>IsMy</span><span class='split4'>TRYP</span>",
         "paragraph1":"",
-        "heading2":"#OwnTheCity",
+        "heading2":"<span class='split5'>#Own</span><span class='split7'>TheCity</span>",
         "paragraph2":"",
-        "heading3":"ALWAYS READY FOR BUSINESS",
+        "heading3":"ALWAYS READY<br /> FOR <br />BUSINESS",
         "paragraph3":"",
-        "heading4":"LIVE THE CULTURE",
+        "heading4":"LIVE <br />THE<br /> CULTURE",
         "paragraph4":""
     },
     "aboutUs":{

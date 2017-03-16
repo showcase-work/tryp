@@ -724,6 +724,37 @@ li.language .uk-dropdown .uk-nav li a{
 }
 
 
+span.split1{
+    margin-left: -57px;
+}
+
+span.split3{
+    font-size: 65px;
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 35px;
+}
+
+span.split4{
+    font-size: 111px;
+}
+
+span.split5{
+    font-size: 105px;
+    padding-bottom: 25px;
+    display: block;
+}
+
+span.split6{
+    padding-top: 16px;
+    display: block;
+    font-size: 100px;
+    padding-bottom: 16px;
+}
+
+span.split7{
+    font-size:80px;
+}
 
 
 /*.uk-slider .uk-active{
