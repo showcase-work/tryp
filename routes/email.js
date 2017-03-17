@@ -9,15 +9,16 @@ var helper = require('sendgrid').mail;
   
 
 
-var sg = require('sendgrid')("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");
-from_email = new helper.Email("mycodetestingemail@gmail.com");
+var sg = require('sendgrid')(process.env.EMAIL);
+from_email = new helper.Email("hoteltrypwtc@gmail.com");
 
 
 
 router.post('/', function(req, res, next) {
 
+    console.log(req.body);
 
-    if(req.body.email && req.body.name){
+    if(req.body.email && req.body.firstName){
         to_email = new helper.Email(req.body.email);
         subject = "TRYP: Booking Query";
         content = new helper.Content("text/plain", "Hi "+req.body.name+", "+" Your Booking query for "+req.body.dateFrom+" to "+req.body.dateTo+" is successfully sent.");
