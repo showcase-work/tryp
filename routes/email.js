@@ -21,7 +21,7 @@ router.post('/', function(req, res, next) {
     if(req.body.email && req.body.firstName){
         to_email = new helper.Email(req.body.email);
 
-        subject = "TRYP Booking Request for"+req.body.firstName;
+        subject = "TRYP Booking Request for "+req.body.firstName;
         content = new helper.Content("text/html", "Hi "+req.body.firstName+", <br />"+" Your Booking query for <b>"+req.body.dateFrom+" to "+req.body.dateTo+"</b> is successfully recieved.<br /> We will respond back with a shortly. <br /><br />Thank you for contacting TRYP.");
         mail = new helper.Mail(from_email, subject, to_email, content);
 
